@@ -1,4 +1,3 @@
-
    /// 毫秒转换成时间格式
      var lcz = new Object();
        lcz.lrc_object = null;  //歌词显示父节点
@@ -212,7 +211,7 @@
 						var time,lrc;
 						lrc = li[li.length-1];
 						for(var element in li){
-							if(li[element].search	("^\\[[0-9]{2}:[0-9]{2}.[0-9]{2}$")==0){  /
+							if(li[element].search	("^\\[[0-9]{2}:[0-9]{2}.[0-9]{2}$")==0){  
 								time = li[element].slice(1)+"";
 								tempJson[time]=lrc;
 								times.push(time);
